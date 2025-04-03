@@ -1,0 +1,77 @@
+.shorten {
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 200px;
+    background-color: hsl(257, 27%, 26%);
+    background-image: url(../images/bg-shorten-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0px 70px;
+    transform: translateY(50%);
+    border-radius: 10px;
+}
+
+.shorten input {
+    padding: 18px 20px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: hsl(257, 7%, 63%);
+}
+
+.shorten input::placeholder {
+    color: hsl(257, 7%, 63%);
+}
+
+.shorten button {
+    padding: 18px 40px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.shorten-links {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    margin: 0px 200px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.short-link {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.short-link {
+    color: hsl(180, 66%, 49%);
+}
+
+.orginal-link p {
+    width: 400px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+
+}
+
+.orginal-link,
+.short-link {
+    font-size: 20px;
+}
+
+.short-link button {
+    border-radius: 10px;
+    padding: 12px 35px;
+    transition: .4s;
+}

@@ -1,0 +1,53 @@
+footer {
+    padding: 100px 200px 100px 200px;
+    background-color: hsl(260, 8%, 14%);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer img {
+    width: 120px;
+    height: 33px;
+    filter: brightness(0) invert(1); /* change to white */
+    cursor: pointer;
+}
+
+.footer-desc {
+    display: flex;
+    gap: 60px;
+    color: white;
+}
+
+.footer-desc ul {
+    list-style: none;
+    line-height: 2;
+    color: hsl(0, 0%, 75%);
+}
+
+.footer-desc li:hover {
+    color: hsl(180, 66%, 49%);
+    cursor: pointer;
+}
+
+.features,
+.resources,
+.company {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 40px;
+}
+
+.footer-icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-icons img:hover {
+    filter: invert(43%) sepia(100%) saturate(500%) hue-rotate(160deg);
+
+}

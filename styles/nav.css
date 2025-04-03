@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Bebas+Neue&family=Bungee+Tint&family=Cairo:wght@200..1000&family=Figtree:ital,wght@0,300..900;1,300..900&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Itim&family=Jomhuria&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Marko+One&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Young+Serif&display=swap');
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arimo", sans-serif;
+}
+
+nav {
+    margin: 20px 200px 20px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.left-side,
+.right-side {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.left-side img {
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: hsl(257, 7%, 63%);
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: hsl(255, 11%, 22%);
+}
+
+button {
+    padding: 12px 25px;
+    background-color: hsl(180, 66%, 49%);
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #9be2e2;
+    cursor: pointer;
+}
