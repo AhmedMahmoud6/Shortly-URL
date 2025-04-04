@@ -25,6 +25,10 @@ nav {
     gap: 20px;
 }
 
+.right-side img {
+    display: none;
+}
+
 .left-side img {
     cursor: pointer;
 }

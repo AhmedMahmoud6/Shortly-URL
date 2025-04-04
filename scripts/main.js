@@ -15,7 +15,7 @@ if (localStorage.getItem("counter")) {
 }
 
 
-shortenItBtn.addEventListener("click", e => {
+shortenItBtn.addEventListener("click", _ => {
     if (shortenInput.value != "") {
         getData(shortenInput.value).then(shortUrl => {
 

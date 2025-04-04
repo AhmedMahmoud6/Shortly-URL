@@ -1,0 +1,58 @@
+@media (min-width: 1100px) and (max-width: 1305px){
+    .landing-left p {
+        font-size: 16px !important;
+    }
+    .landing-left h1 {
+        font-size: 45px !important;
+    }
+}
+
+
+@media (max-width: 1100px) {
+    .landing { 
+        flex-direction: column-reverse;
+        gap: 30px;
+        padding-bottom: 0px;
+    }
+    .landing-left p {
+        font-size: 16px;
+    }
+    .landing-left h1 {
+        font-size: 45px;
+        text-align: center;
+    }
+
+    .landing-left, .landing-right {
+        width: 80%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .landing-left button {
+        margin-top: 30px
+    }
+}
+
+@media (max-width: 1000px) {
+    .landing {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .landing-right img {
+        width: 80%;
+        height: 80%;
+    }
+}
+
+@media (max-width: 530px) {
+    .landing-left h1 {
+        font-size: 25px;
+    }
+
+    .landing-left p {
+        width: fit-content;
+    }
+}

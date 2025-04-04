@@ -1,0 +1,62 @@
+@media (min-width: 1307px) and (max-width: 1505px) {
+    .shorten button {
+        padding: 18px 25px;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1305px){ 
+    .shorten button {
+        padding: 10px 30px;
+    }
+
+    .orginal-link p {
+        width: 130px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .shorten {
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .shorten button {
+        padding: 20px 30px;
+        width: 95%;
+    }
+
+    .shorten input {
+        width: 95%;
+    }
+    .orginal-link p {
+        width: 130px;
+    }
+
+}
+
+@media (max-width: 1000px) {
+    .shorten {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .shorten-links {
+        margin: 0px 20px;
+        flex-direction: column;
+    }
+
+    .short-link {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .short-link button {
+        width: 100%;
+    }
+
+    .orginal-link p {
+        width: fit-content;
+    }
+
+    
+}

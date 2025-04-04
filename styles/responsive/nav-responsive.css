@@ -1,0 +1,22 @@
+@media (max-width: 1000px) {
+    nav {
+        margin: 20px;
+    }
+}
+
+@media (max-width: 630px) {
+    .left-side a {
+        display: none;
+    }
+
+    .right-side a,
+    .right-side button {
+        display: none;
+    }
+
+    .right-side img {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+}
